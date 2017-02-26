@@ -16,6 +16,15 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h1 {
+   color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
+}
+
+
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -32,6 +41,7 @@ body {
 /* Custom Button Styles */
 
 .btn-dark {
+        margin: 20;
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
@@ -40,6 +50,7 @@ body {
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
+
     color: #fff;
     background-color: rgba(0,0,0,0.7);
 }
@@ -200,6 +211,7 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+
 }
 
 .img-portfolio {
