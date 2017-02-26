@@ -24,6 +24,12 @@ h1 {
 }
 
 
+.demontitle{
+    color: white;
+    font-size: 5em;
+       -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
 
 .text-vertical-center {
     display: table-cell;
