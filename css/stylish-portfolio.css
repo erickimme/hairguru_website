@@ -24,6 +24,15 @@ h1 {
 }
 
 
+.box{
+    float:left;
+    margin-right:20px;
+}
+.clear{
+    clear:both;
+}
+
+
 .demontitle{
     color: white;
     font-size: 5em;
@@ -46,8 +55,8 @@ h1 {
 
 /* Custom Button Styles */
 
-.btn-dark {
-        margin: 20;
+.btn-dark { 
+    margin: 20;
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
